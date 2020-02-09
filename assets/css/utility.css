@@ -1,0 +1,25 @@
+.opacity-0 {opacity: 0;}
+.opacity-1 {opacity: 0.2;}
+.opacity-2 {opacity: 0.4;}
+.opacity-3 {opacity: 0.6;}
+.opacity-4 {opacity: 0.8;}
+.opacity-5 {opacity: 1;}
+
+.text-size-1 { font-size: 10px; }
+.text-size-2 { font-size: 12px; }
+.text-size-3 { font-size: 14px; }
+.text-size-4 { font-size: 16px; }
+.text-size-5 { font-size: 18px; }
+.text-size-6 { font-size: 20px; }
+.text-size-7 { font-size: 22px; }
+.text-size-8 { font-size: 24px; }
+.text-size-9 { font-size: 26px; }
+.text-size-10 { font-size: 28px; }
+
+.border-box {
+    box-sizing: border-box;
+}
+
+.list-style-none {
+    list-style: none;
+}

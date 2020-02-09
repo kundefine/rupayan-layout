@@ -1,0 +1,350 @@
+
+:root {
+    /* For Blue */
+    --ru-text-blue-1 : #2E3192;
+    --ru-text-blue-2 : #13499F;
+    --ru-text-blue-3 : #005DAC;
+    --ru-text-blue-4 : #007FC7;
+    --ru-text-blue-5 : #0097DC;
+    --ru-text-blue-6 : #00A2E5;
+    --ru-bg-blue-1 : #2E3192;
+    --ru-bg-blue-2 : #13499F;
+    --ru-bg-blue-3 : #005DAC;
+    --ru-bg-blue-4 : #007FC7;
+    --ru-bg-blue-5 : #0097DC;
+    --ru-bg-blue-6 : #00A2E5;
+
+    --ru-bg-blue-1-op-1 : rgba(46, 49, 146, 1);
+    --ru-bg-blue-1-op-2 : rgba(46, 49, 146, 0.8);
+    --ru-bg-blue-1-op-3 : rgba(46, 49, 146, 0.6);
+    --ru-bg-blue-1-op-4 : rgba(46, 49, 146, 0.4);
+    --ru-bg-blue-1-op-5 : rgba(46, 49, 146, 0.2);
+    --ru-bg-blue-1-op-6 : rgba(46, 49, 146, 0);
+
+    --ru-bg-blue-2-op-1 : rgba(19, 73, 159, 1);
+    --ru-bg-blue-2-op-2 : rgba(19, 73, 159, 0.8);
+    --ru-bg-blue-2-op-3 : rgba(19, 73, 159, 0.6);
+    --ru-bg-blue-2-op-4 : rgba(19, 73, 159, 0.4);
+    --ru-bg-blue-2-op-5 : rgba(19, 73, 159, 0.2);
+    --ru-bg-blue-2-op-6 : rgba(19, 73, 159, 0);
+
+    --ru-bg-blue-3-op-1 : rgba(0, 93, 172, 1);
+    --ru-bg-blue-3-op-2 : rgba(0, 93, 172, 0.8);
+    --ru-bg-blue-3-op-3 : rgba(0, 93, 172, 0.6);
+    --ru-bg-blue-3-op-4 : rgba(0, 93, 172, 0.4);
+    --ru-bg-blue-3-op-5 : rgba(0, 93, 172, 0.2);
+    --ru-bg-blue-3-op-6 : rgba(0, 93, 172, 0);
+
+    --ru-bg-blue-4-op-1 : rgba(0, 127, 199, 1);
+    --ru-bg-blue-4-op-2 : rgba(0, 127, 199, 0.8);
+    --ru-bg-blue-4-op-3 : rgba(0, 127, 199, 0.6);
+    --ru-bg-blue-4-op-4 : rgba(0, 127, 199, 0.4);
+    --ru-bg-blue-4-op-5 : rgba(0, 127, 199, 0.2);
+    --ru-bg-blue-4-op-6 : rgba(0, 127, 199, 0);
+
+    --ru-bg-blue-5-op-1 : rgba(0, 151, 220, 1);
+    --ru-bg-blue-5-op-2 : rgba(0, 151, 220, 0.8);
+    --ru-bg-blue-5-op-3 : rgba(0, 151, 220, 0.6);
+    --ru-bg-blue-5-op-4 : rgba(0, 151, 220, 0.4);
+    --ru-bg-blue-5-op-5 : rgba(0, 151, 220, 0.2);
+    --ru-bg-blue-5-op-6 : rgba(0, 151, 220, 0);
+
+    --ru-bg-blue-6-op-1 : rgba(0, 162, 229, 1);
+    --ru-bg-blue-6-op-2 : rgba(0, 162, 229, 0.8);
+    --ru-bg-blue-6-op-3 : rgba(0, 162, 229, 0.6);
+    --ru-bg-blue-6-op-4 : rgba(0, 162, 229, 0.4);
+    --ru-bg-blue-6-op-5 : rgba(0, 162, 229, 0.2);
+    --ru-bg-blue-6-op-6 : rgba(0, 162, 229, 0);
+
+
+    /* For Yellow */
+    --ru-text-yellow-1 : #FFCB08;
+    --ru-text-yellow-2 : #FFE600;
+    --ru-text-yellow-3 : #FFF459;
+    --ru-text-yellow-4 : #FFF797;
+    --ru-text-yellow-5 : #FFF9B4;
+    --ru-text-yellow-6 : #FFFCD8;
+    --ru-bg-yellow-1 : #FFCB08;
+    --ru-bg-yellow-2 : #FFE600;
+    --ru-bg-yellow-3 : #FFF459;
+    --ru-bg-yellow-4 : #FFF797;
+    --ru-bg-yellow-5 : #FFF9B4;
+    --ru-bg-yellow-6 : #FFFCD8;
+
+    --ru-bg-yellow-1-op-1 : rgba(255, 203, 8, 1);
+    --ru-bg-yellow-1-op-2 : rgba(255, 203, 8, 0.8);
+    --ru-bg-yellow-1-op-3 : rgba(255, 203, 8, 0.6);
+    --ru-bg-yellow-1-op-4 : rgba(255, 203, 8, 0.4);
+    --ru-bg-yellow-1-op-5 : rgba(255, 203, 8, 0.2);
+    --ru-bg-yellow-1-op-6 : rgba(255, 203, 8, 0);
+
+    --ru-bg-yellow-2-op-1 : rgba(255, 230, 0, 1);
+    --ru-bg-yellow-2-op-2 : rgba(255, 230, 0, 0.8);
+    --ru-bg-yellow-2-op-3 : rgba(255, 230, 0, 0.6);
+    --ru-bg-yellow-2-op-4 : rgba(255, 230, 0, 0.4);
+    --ru-bg-yellow-2-op-5 : rgba(255, 230, 0, 0.2);
+    --ru-bg-yellow-2-op-6 : rgba(255, 230, 0, 0);
+
+    --ru-bg-yellow-3-op-1 : rgba(255, 244, 89, 1);
+    --ru-bg-yellow-3-op-2 : rgba(255, 244, 89, 0.8);
+    --ru-bg-yellow-3-op-3 : rgba(255, 244, 89, 0.6);
+    --ru-bg-yellow-3-op-4 : rgba(255, 244, 89, 0.4);
+    --ru-bg-yellow-3-op-5 : rgba(255, 244, 89, 0.2);
+    --ru-bg-yellow-3-op-6 : rgba(255, 244, 89, 0);
+
+    --ru-bg-yellow-4-op-1 : rgba(255, 247, 151, 1);
+    --ru-bg-yellow-4-op-2 : rgba(255, 247, 151, 0.8);
+    --ru-bg-yellow-4-op-3 : rgba(255, 247, 151, 0.6);
+    --ru-bg-yellow-4-op-4 : rgba(255, 247, 151, 0.4);
+    --ru-bg-yellow-4-op-5 : rgba(255, 247, 151, 0.2);
+    --ru-bg-yellow-4-op-6 : rgba(255, 247, 151, 0);
+
+    --ru-bg-yellow-5-op-1 : rgba(255, 249, 180, 1);
+    --ru-bg-yellow-5-op-2 : rgba(255, 249, 180, 0.8);
+    --ru-bg-yellow-5-op-3 : rgba(255, 249, 180, 0.6);
+    --ru-bg-yellow-5-op-4 : rgba(255, 249, 180, 0.4);
+    --ru-bg-yellow-5-op-5 : rgba(255, 249, 180, 0.2);
+    --ru-bg-yellow-5-op-6 : rgba(255, 249, 180, 0);
+
+    --ru-bg-yellow-6-op-1 : rgba(255, 252, 216, 1);
+    --ru-bg-yellow-6-op-2 : rgba(255, 252, 216, 0.8);
+    --ru-bg-yellow-6-op-3 : rgba(255, 252, 216, 0.6);
+    --ru-bg-yellow-6-op-4 : rgba(255, 252, 216, 0.4);
+    --ru-bg-yellow-6-op-5 : rgba(255, 252, 216, 0.2);
+    --ru-bg-yellow-6-op-6 : rgba(255, 252, 216, 0);
+
+
+    /* For Black */
+    --ru-text-black-1 : #000000;
+    --ru-text-black-2 : #3A3A3C;
+    --ru-text-black-3 : #7E8083;
+    --ru-text-black-4 : #AFB1B4;
+    --ru-text-black-5 : #C5C6C8;
+    --ru-text-black-6 : #DADBDC;
+    --ru-bg-black-1 : #000000;
+    --ru-bg-black-2 : #3A3A3C;
+    --ru-bg-black-3 : #7E8083;
+    --ru-bg-black-4 : #AFB1B4;
+    --ru-bg-black-5 : #C5C6C8;
+    --ru-bg-black-6 : #DADBDC;
+
+
+    --ru-bg-black-1-op-1 : rgba(0, 0, 0, 1);
+    --ru-bg-black-1-op-2 : rgba(0, 0, 0, 0.8);
+    --ru-bg-black-1-op-3 : rgba(0, 0, 0, 0.6);
+    --ru-bg-black-1-op-4 : rgba(0, 0, 0, 0.4);
+    --ru-bg-black-1-op-5 : rgba(0, 0, 0, 0.2);
+    --ru-bg-black-1-op-6 : rgba(0, 0, 0, 0);
+
+    --ru-bg-black-2-op-1 : rgba(58, 58, 60, 1);
+    --ru-bg-black-2-op-2 : rgba(58, 58, 60, 0.8);
+    --ru-bg-black-2-op-3 : rgba(58, 58, 60, 0.6);
+    --ru-bg-black-2-op-4 : rgba(58, 58, 60, 0.4);
+    --ru-bg-black-2-op-5 : rgba(58, 58, 60, 0.2);
+    --ru-bg-black-2-op-6 : rgba(58, 58, 60, 0);
+
+    --ru-bg-black-3-op-1 : rgba(126, 128, 131, 1);
+    --ru-bg-black-3-op-2 : rgba(126, 128, 131, 0.8);
+    --ru-bg-black-3-op-3 : rgba(126, 128, 131, 0.6);
+    --ru-bg-black-3-op-4 : rgba(126, 128, 131, 0.4);
+    --ru-bg-black-3-op-5 : rgba(126, 128, 131, 0.2);
+    --ru-bg-black-3-op-6 : rgba(126, 128, 131, 0);
+
+    --ru-bg-black-4-op-1 : rgba(175, 177, 180, 1);
+    --ru-bg-black-4-op-2 : rgba(175, 177, 180, 0.8);
+    --ru-bg-black-4-op-3 : rgba(175, 177, 180, 0.6);
+    --ru-bg-black-4-op-4 : rgba(175, 177, 180, 0.4);
+    --ru-bg-black-4-op-5 : rgba(175, 177, 180, 0.2);
+    --ru-bg-black-4-op-6 : rgba(175, 177, 180, 0);
+
+    --ru-bg-black-5-op-1 : rgba(197, 198, 200, 1);
+    --ru-bg-black-5-op-2 : rgba(197, 198, 200, 0.8);
+    --ru-bg-black-5-op-3 : rgba(197, 198, 200, 0.6);
+    --ru-bg-black-5-op-4 : rgba(197, 198, 200, 0.4);
+    --ru-bg-black-5-op-5 : rgba(197, 198, 200, 0.2);
+    --ru-bg-black-5-op-6 : rgba(197, 198, 200, 0);
+
+    --ru-bg-black-6-op-1 : rgba(218, 219, 220, 1);
+    --ru-bg-black-6-op-2 : rgba(218, 219, 220, 0.8);
+    --ru-bg-black-6-op-3 : rgba(218, 219, 220, 0.6);
+    --ru-bg-black-6-op-4 : rgba(218, 219, 220, 0.4);
+    --ru-bg-black-6-op-5 : rgba(218, 219, 220, 0.2);
+    --ru-bg-black-6-op-6 : rgba(218, 219, 220, 0);
+
+
+
+}
+
+/* for blue class */
+
+.ru-text-blue-1 { color: var(--ru-text-blue-1); }
+.ru-text-blue-2 { color: var(--ru-text-blue-2); }
+.ru-text-blue-3 { color: var(--ru-text-blue-3); }
+.ru-text-blue-4 { color: var(--ru-text-blue-4); }
+.ru-text-blue-5 { color: var(--ru-text-blue-5); }
+.ru-text-blue-6 { color: var(--ru-text-blue-6); }
+.ru-bg-blue-1 { background-color: var(--ru-bg-blue-1); }
+.ru-bg-blue-2 { background-color: var(--ru-bg-blue-2); }
+.ru-bg-blue-3 { background-color: var(--ru-bg-blue-3); }
+.ru-bg-blue-4 { background-color: var(--ru-bg-blue-4); }
+.ru-bg-blue-5 { background-color: var(--ru-bg-blue-5); }
+.ru-bg-blue-6 { background-color: var(--ru-bg-blue-6); }
+
+.ru-bg-blue-1-op-1 { background-color: var(--ru-bg-blue-1-op-1); }
+.ru-bg-blue-1-op-2 { background-color: var(--ru-bg-blue-1-op-2); }
+.ru-bg-blue-1-op-3 { background-color: var(--ru-bg-blue-1-op-3); }
+.ru-bg-blue-1-op-4 { background-color: var(--ru-bg-blue-1-op-4); }
+.ru-bg-blue-1-op-5 { background-color: var(--ru-bg-blue-1-op-5); }
+.ru-bg-blue-1-op-6 { background-color: var(--ru-bg-blue-1-op-6); }
+
+.ru-bg-blue-2-op-1 { background-color: var(--ru-bg-blue-2-op-1); }
+.ru-bg-blue-2-op-2 { background-color: var(--ru-bg-blue-2-op-2); }
+.ru-bg-blue-2-op-3 { background-color: var(--ru-bg-blue-2-op-3); }
+.ru-bg-blue-2-op-4 { background-color: var(--ru-bg-blue-2-op-4); }
+.ru-bg-blue-2-op-5 { background-color: var(--ru-bg-blue-2-op-5); }
+.ru-bg-blue-2-op-6 { background-color: var(--ru-bg-blue-2-op-6); }
+
+.ru-bg-blue-3-op-1 { background-color: var(--ru-bg-blue-3-op-1); }
+.ru-bg-blue-3-op-2 { background-color: var(--ru-bg-blue-3-op-2); }
+.ru-bg-blue-3-op-3 { background-color: var(--ru-bg-blue-3-op-3); }
+.ru-bg-blue-3-op-4 { background-color: var(--ru-bg-blue-3-op-4); }
+.ru-bg-blue-3-op-5 { background-color: var(--ru-bg-blue-3-op-5); }
+.ru-bg-blue-3-op-6 { background-color: var(--ru-bg-blue-3-op-6); }
+
+.ru-bg-blue-4-op-1 { background-color: var(--ru-bg-blue-4-op-1); }
+.ru-bg-blue-4-op-2 { background-color: var(--ru-bg-blue-4-op-2); }
+.ru-bg-blue-4-op-3 { background-color: var(--ru-bg-blue-4-op-3); }
+.ru-bg-blue-4-op-4 { background-color: var(--ru-bg-blue-4-op-4); }
+.ru-bg-blue-4-op-5 { background-color: var(--ru-bg-blue-4-op-5); }
+.ru-bg-blue-4-op-6 { background-color: var(--ru-bg-blue-4-op-6); }
+
+.ru-bg-blue-5-op-1 { background-color: var(--ru-bg-blue-5-op-1); }
+.ru-bg-blue-5-op-2 { background-color: var(--ru-bg-blue-5-op-2); }
+.ru-bg-blue-5-op-3 { background-color: var(--ru-bg-blue-5-op-3); }
+.ru-bg-blue-5-op-4 { background-color: var(--ru-bg-blue-5-op-4); }
+.ru-bg-blue-5-op-5 { background-color: var(--ru-bg-blue-5-op-5); }
+.ru-bg-blue-5-op-6 { background-color: var(--ru-bg-blue-5-op-6); }
+
+.ru-bg-blue-6-op-1 { background-color: var(--ru-bg-blue-6-op-1); }
+.ru-bg-blue-6-op-2 { background-color: var(--ru-bg-blue-6-op-2); }
+.ru-bg-blue-6-op-3 { background-color: var(--ru-bg-blue-6-op-3); }
+.ru-bg-blue-6-op-4 { background-color: var(--ru-bg-blue-6-op-4); }
+.ru-bg-blue-6-op-5 { background-color: var(--ru-bg-blue-6-op-5); }
+.ru-bg-blue-6-op-6 { background-color: var(--ru-bg-blue-6-op-6); }
+
+
+/* for yellow class */
+
+.ru-text-yellow-1 { color: var(--ru-text-yellow-1); }
+.ru-text-yellow-2 { color: var(--ru-text-yellow-2); }
+.ru-text-yellow-3 { color: var(--ru-text-yellow-3); }
+.ru-text-yellow-4 { color: var(--ru-text-yellow-4); }
+.ru-text-yellow-5 { color: var(--ru-text-yellow-5); }
+.ru-text-yellow-6 { color: var(--ru-text-yellow-6); }
+.ru-bg-yellow-1 { background-color: var(--ru-bg-yellow-1); }
+.ru-bg-yellow-2 { background-color: var(--ru-bg-yellow-2); }
+.ru-bg-yellow-3 { background-color: var(--ru-bg-yellow-3); }
+.ru-bg-yellow-4 { background-color: var(--ru-bg-yellow-4); }
+.ru-bg-yellow-5 { background-color: var(--ru-bg-yellow-5); }
+.ru-bg-yellow-6 { background-color: var(--ru-bg-yellow-6); }
+
+.ru-bg-yellow-1-op-1 { background-color: var(--ru-bg-yellow-1-op-1); }
+.ru-bg-yellow-1-op-2 { background-color: var(--ru-bg-yellow-1-op-2); }
+.ru-bg-yellow-1-op-3 { background-color: var(--ru-bg-yellow-1-op-3); }
+.ru-bg-yellow-1-op-4 { background-color: var(--ru-bg-yellow-1-op-4); }
+.ru-bg-yellow-1-op-5 { background-color: var(--ru-bg-yellow-1-op-5); }
+.ru-bg-yellow-1-op-6 { background-color: var(--ru-bg-yellow-1-op-6); }
+
+.ru-bg-yellow-2-op-1 { background-color: var(--ru-bg-yellow-2-op-1); }
+.ru-bg-yellow-2-op-2 { background-color: var(--ru-bg-yellow-2-op-2); }
+.ru-bg-yellow-2-op-3 { background-color: var(--ru-bg-yellow-2-op-3); }
+.ru-bg-yellow-2-op-4 { background-color: var(--ru-bg-yellow-2-op-4); }
+.ru-bg-yellow-2-op-5 { background-color: var(--ru-bg-yellow-2-op-5); }
+.ru-bg-yellow-2-op-6 { background-color: var(--ru-bg-yellow-2-op-6); }
+
+.ru-bg-yellow-3-op-1 { background-color: var(--ru-bg-yellow-3-op-1); }
+.ru-bg-yellow-3-op-2 { background-color: var(--ru-bg-yellow-3-op-2); }
+.ru-bg-yellow-3-op-3 { background-color: var(--ru-bg-yellow-3-op-3); }
+.ru-bg-yellow-3-op-4 { background-color: var(--ru-bg-yellow-3-op-4); }
+.ru-bg-yellow-3-op-5 { background-color: var(--ru-bg-yellow-3-op-5); }
+.ru-bg-yellow-3-op-6 { background-color: var(--ru-bg-yellow-3-op-6); }
+
+.ru-bg-yellow-4-op-1 { background-color: var(--ru-bg-yellow-4-op-1); }
+.ru-bg-yellow-4-op-2 { background-color: var(--ru-bg-yellow-4-op-2); }
+.ru-bg-yellow-4-op-3 { background-color: var(--ru-bg-yellow-4-op-3); }
+.ru-bg-yellow-4-op-4 { background-color: var(--ru-bg-yellow-4-op-4); }
+.ru-bg-yellow-4-op-5 { background-color: var(--ru-bg-yellow-4-op-5); }
+.ru-bg-yellow-4-op-6 { background-color: var(--ru-bg-yellow-4-op-6); }
+
+.ru-bg-yellow-5-op-1 { background-color: var(--ru-bg-yellow-5-op-1); }
+.ru-bg-yellow-5-op-2 { background-color: var(--ru-bg-yellow-5-op-2); }
+.ru-bg-yellow-5-op-3 { background-color: var(--ru-bg-yellow-5-op-3); }
+.ru-bg-yellow-5-op-4 { background-color: var(--ru-bg-yellow-5-op-4); }
+.ru-bg-yellow-5-op-5 { background-color: var(--ru-bg-yellow-5-op-5); }
+.ru-bg-yellow-5-op-6 { background-color: var(--ru-bg-yellow-5-op-6); }
+
+.ru-bg-yellow-6-op-1 { background-color: var(--ru-bg-yellow-6-op-1); }
+.ru-bg-yellow-6-op-2 { background-color: var(--ru-bg-yellow-6-op-2); }
+.ru-bg-yellow-6-op-3 { background-color: var(--ru-bg-yellow-6-op-3); }
+.ru-bg-yellow-6-op-4 { background-color: var(--ru-bg-yellow-6-op-4); }
+.ru-bg-yellow-6-op-5 { background-color: var(--ru-bg-yellow-6-op-5); }
+.ru-bg-yellow-6-op-6 { background-color: var(--ru-bg-yellow-6-op-6); }
+
+
+
+/* for black class */
+.ru-text-black-1 { color: var(--ru-text-black-1); }
+.ru-text-black-2 { color: var(--ru-text-black-2); }
+.ru-text-black-3 { color: var(--ru-text-black-3); }
+.ru-text-black-4 { color: var(--ru-text-black-4); }
+.ru-text-black-5 { color: var(--ru-text-black-5); }
+.ru-text-black-6 { color: var(--ru-text-black-6); }
+.ru-bg-black-1 { background-color: var(--ru-bg-black-1); }
+.ru-bg-black-2 { background-color: var(--ru-bg-black-2); }
+.ru-bg-black-3 { background-color: var(--ru-bg-black-3); }
+.ru-bg-black-4 { background-color: var(--ru-bg-black-4); }
+.ru-bg-black-5 { background-color: var(--ru-bg-black-5); }
+.ru-bg-black-6 { background-color: var(--ru-bg-black-6); }
+
+.ru-bg-black-1-op-1 { background-color: var(--ru-bg-black-1-op-1); }
+.ru-bg-black-1-op-2 { background-color: var(--ru-bg-black-1-op-2); }
+.ru-bg-black-1-op-3 { background-color: var(--ru-bg-black-1-op-3); }
+.ru-bg-black-1-op-4 { background-color: var(--ru-bg-black-1-op-4); }
+.ru-bg-black-1-op-5 { background-color: var(--ru-bg-black-1-op-5); }
+.ru-bg-black-1-op-6 { background-color: var(--ru-bg-black-1-op-6); }
+
+.ru-bg-black-2-op-1 { background-color: var(--ru-bg-black-2-op-1); }
+.ru-bg-black-2-op-2 { background-color: var(--ru-bg-black-2-op-2); }
+.ru-bg-black-2-op-3 { background-color: var(--ru-bg-black-2-op-3); }
+.ru-bg-black-2-op-4 { background-color: var(--ru-bg-black-2-op-4); }
+.ru-bg-black-2-op-5 { background-color: var(--ru-bg-black-2-op-5); }
+.ru-bg-black-2-op-6 { background-color: var(--ru-bg-black-2-op-6); }
+
+.ru-bg-black-3-op-1 { background-color: var(--ru-bg-black-3-op-1); }
+.ru-bg-black-3-op-2 { background-color: var(--ru-bg-black-3-op-2); }
+.ru-bg-black-3-op-3 { background-color: var(--ru-bg-black-3-op-3); }
+.ru-bg-black-3-op-4 { background-color: var(--ru-bg-black-3-op-4); }
+.ru-bg-black-3-op-5 { background-color: var(--ru-bg-black-3-op-5); }
+.ru-bg-black-3-op-6 { background-color: var(--ru-bg-black-3-op-6); }
+
+.ru-bg-black-4-op-1 { background-color: var(--ru-bg-black-4-op-1); }
+.ru-bg-black-4-op-2 { background-color: var(--ru-bg-black-4-op-2); }
+.ru-bg-black-4-op-3 { background-color: var(--ru-bg-black-4-op-3); }
+.ru-bg-black-4-op-4 { background-color: var(--ru-bg-black-4-op-4); }
+.ru-bg-black-4-op-5 { background-color: var(--ru-bg-black-4-op-5); }
+.ru-bg-black-4-op-6 { background-color: var(--ru-bg-black-4-op-6); }
+
+.ru-bg-black-5-op-1 { background-color: var(--ru-bg-black-5-op-1); }
+.ru-bg-black-5-op-2 { background-color: var(--ru-bg-black-5-op-2); }
+.ru-bg-black-5-op-3 { background-color: var(--ru-bg-black-5-op-3); }
+.ru-bg-black-5-op-4 { background-color: var(--ru-bg-black-5-op-4); }
+.ru-bg-black-5-op-5 { background-color: var(--ru-bg-black-5-op-5); }
+.ru-bg-black-5-op-6 { background-color: var(--ru-bg-black-5-op-6); }
+
+.ru-bg-black-6-op-1 { background-color: var(--ru-bg-black-6-op-1); }
+.ru-bg-black-6-op-2 { background-color: var(--ru-bg-black-6-op-2); }
+.ru-bg-black-6-op-3 { background-color: var(--ru-bg-black-6-op-3); }
+.ru-bg-black-6-op-4 { background-color: var(--ru-bg-black-6-op-4); }
+.ru-bg-black-6-op-5 { background-color: var(--ru-bg-black-6-op-5); }
+.ru-bg-black-6-op-6 { background-color: var(--ru-bg-black-6-op-6); }
+
