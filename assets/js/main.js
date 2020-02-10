@@ -27,15 +27,56 @@ $(document).ready(function() {
     });
 
 
+    // achievement tooltip
+    $('.achievement-img img').tooltip();
+
 
 
 });
 
-$('.achievement-img img').tooltip();
+
+function HotLineAnimation() {
+    function viewHotLine() {
+        return new Promise((resolve, reject) => {
+            setTimeout(()=>{
+                if($('.hot-line-wrapper').hasClass('show-hot-line')) {
+                    reject('already showed');
+                } else {
+                    $('.hot-line-wrapper').addClass('show-hot-line');
+                    resolve('animation done');
+                }
+            }, 3000);
+
+        });
+    }
+
+    function changeHotLineToggleIconToRight() {
+        $('.hot-line-toggle-icon').removeClass('fa-angle-left').addClass('fa-angle-right');
+    }
+
+    function changeHotLineToggleIconToLeft() {
+        $('.hot-line-toggle-icon').removeClass('fa-angle-right').addClass('fa-angle-left');
+    }
 
 
+    viewHotLine().then(changeHotLineToggleIconToRight);
+
+    $('.hot-line-toggle-icon').on('click', function() {
+
+        $('.hot-line-wrapper').toggleClass('show-hot-line');
+        if($('.hot-line-wrapper').hasClass('show-hot-line')) {
+            console.log("already there");
+            changeHotLineToggleIconToRight();
+        } else {
+            changeHotLineToggleIconToLeft();
+
+        }
+    });
+
+}
 
 
+HotLineAnimation();
 
 
 

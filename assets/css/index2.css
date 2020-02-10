@@ -290,3 +290,39 @@
 }
 
 
+/* Hot Line Style */
+.hot-line-wrapper {
+    position: fixed;
+    top: 50%;
+    right: -235px;
+    z-index: 2;
+    transform: translate(0, -50%);
+    line-height: 31px;
+    font-size: 20px;
+    font-style: italic;
+    background: #e8272e;
+    box-shadow: 0 0 5px 1px #000;
+    transition: right 1s ease-out 0s;
+}
+
+.hot-line {
+    position: relative;
+    padding: 10px 40px 10px 70px;
+}
+.hot-line-toggle-icon {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 20px;
+    height: 100%;
+    background: #181819;
+    transform: translate(0px, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    cursor: pointer;
+}
+.hot-line-wrapper.show-hot-line {
+    right: 0px;
+}
