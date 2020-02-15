@@ -31,6 +31,19 @@ $(document).ready(function() {
     $('.achievement-img img').tooltip();
 
 
+    // scroll to top
+    $("a[href='#top']").click(function() {
+        $("html, body").animate({ scrollTop: 0 }, 1500);
+        return false;
+    });
+    $(window).on('scroll', function(){
+       if(this.scrollY > 300) {
+           $($("a[href='#top']")).show();
+       } else {
+           $($("a[href='#top']")).hide();
+       }
+    });
+
 
 });
 
@@ -113,4 +126,6 @@ function setHeaderValue() {
     $(".contact-us").css({marginLeft: 0});
     $(".logo").css({transform: "scale(0.9)"});
 }
+
+
 

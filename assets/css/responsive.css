@@ -6,6 +6,9 @@
     .map div {
         width: 300px;
     }
+    .ru-statistic-title {
+        margin-bottom: 0px;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -15,6 +18,9 @@
     }
     .map div {
         width: 300px;
+    }
+    .ru-statistic-title {
+        margin-bottom: 0px;
     }
 }
 

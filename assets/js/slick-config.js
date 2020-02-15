@@ -6,6 +6,7 @@ $(document).ready(function(){
         // autoplay: true,
         autoplaySpeed: 2000,
         dots: true,
+        dotsClass: 'slick-dots slick-slider-common-dots',
         arrows: true,
         prevArrow: $('.slick-prev-custom'),
         nextArrow: $('.slick-next-custom'),
@@ -37,8 +38,6 @@ $(document).ready(function(){
     });
 
 
-
-
     $('.slick-ready-project2').slick({
         slidesToShow: 3,
         slidesToScroll: 3,
@@ -46,6 +45,7 @@ $(document).ready(function(){
         autoplaySpeed: 2000,
         dots: true,
         arrows: true,
+        dotsClass: 'slick-dots slick-slider-common-dots',
         prevArrow: $('.slick-prev-custom2'),
         nextArrow: $('.slick-next-custom2'),
         responsive: [
@@ -84,8 +84,8 @@ $(document).ready(function(){
         autoplaySpeed: 500,
         // dots: true,
         arrows: true,
-        /*            prevArrow: $('.slick-prev-custom2'),
-                    nextArrow: $('.slick-next-custom2'),*/
+        prevArrow: $('.slick-prev-custom3'),
+        nextArrow: $('.slick-next-custom3'),
         responsive: [
             {
                 breakpoint: 1024,
@@ -116,16 +116,15 @@ $(document).ready(function(){
 
 
     $('.slick-slider-4').slick({
-        slidesToShow: 3,
+        slidesToShow: 5,
         slidesToScroll: 1,
         adaptiveHeight: true,
         autoplay: true,
-        centerMode: true,
         autoplaySpeed: 5000,
         // dots: true,
         arrows: true,
-        /*            prevArrow: $('.slick-prev-custom2'),
-                    nextArrow: $('.slick-next-custom2'),*/
+        prevArrow: $('.slick-prev-custom4'),
+        nextArrow: $('.slick-next-custom4'),
         responsive: [
             {
                 breakpoint: 1024,
@@ -152,4 +151,127 @@ $(document).ready(function(){
             }
         ]
     });
+
+
+
+    $('.slick-slider-5.slick-slider-top-properties').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        adaptiveHeight: true,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        // dots: true,
+        arrows: true,
+        prevArrow: $('.slick-prev-custom5'),
+        nextArrow: $('.slick-next-custom5'),
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
+    });
+
+
+    $('.slick-slider-6.slick-slider-feature-properties').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        adaptiveHeight: true,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        // dots: true,
+        arrows: true,
+        prevArrow: $('.slick-prev-custom6'),
+        nextArrow: $('.slick-next-custom6'),
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
+    });
+
+
+
+
+    $('.slick-slider-7.slick-slider-property-gallery').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        adaptiveHeight: true,
+        autoplay: true,
+        autoplaySpeed: 300,
+        dots: true,
+        arrows: true,
+        fade: true,
+        /*
+        prevArrow: $('.slick-prev-custom6'),
+        nextArrow: $('.slick-next-custom6'),*/
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
+    });
+
+
+
+
 });

@@ -137,3 +137,7 @@
     box-shadow: inset 0px -6px 0px 0px #ddd;
     transition: all 1s;
 }
+
+.slick-nav-bar i {
+    cursor: pointer;
+}
