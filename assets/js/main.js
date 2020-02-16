@@ -30,6 +30,10 @@ $(document).ready(function() {
     // achievement tooltip
     $('.achievement-img img').tooltip();
 
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    })
+
 
     // scroll to top
     $("a[href='#top']").click(function() {

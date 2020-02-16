@@ -232,18 +232,67 @@ $(document).ready(function(){
 
 
 
-    $('.slick-slider-7.slick-slider-property-gallery').slick({
+    $('.slick-slider-7').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
         adaptiveHeight: true,
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 300,
         dots: true,
         arrows: true,
         fade: true,
+        asNavFor: '.slick-slider-7-nav',
         /*
         prevArrow: $('.slick-prev-custom6'),
         nextArrow: $('.slick-next-custom6'),*/
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
+    });
+
+    $('.slick-slider-7-nav').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        asNavFor: '.slick-slider-7',
+        arrows: false,
+        dots: false,
+        centerMode: true,
+        focusOnSelect: true
+    });
+
+
+    $('.slick-slider-8.concern-slick').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        adaptiveHeight: true,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        dots: false,
+        arrows: false,
+        /*prevArrow: $('.slick-prev-custom8'),
+        nextArrow: $('.slick-next-custom8'),*/
         responsive: [
             {
                 breakpoint: 1024,
