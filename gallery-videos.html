@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="assets/css/slick-theme.css">
     <!-- Animate Css -->
     <link rel="stylesheet" href="assets/css/animate.css">
+    <!-- Fancybox Css -->
+    <link rel="stylesheet" href="assets/css/jquery.fancybox.css">
 
 
 
@@ -90,11 +92,11 @@
                 <div class="overlay">
                     <div class="container">
                         <div class="title top-page-banner d-flex justify-content-center align-items-center flex-column">
-                            <h2 class="text-white text-center display-1 mb-3 text-uppercase font-weight-bold">About Us</h2>
+                            <h2 class="text-white text-center display-1 mb-3 text-uppercase font-weight-bold">Video Gallery</h2>
                             <ul class="list-style-none d-flex text-white ml-auto mr-auto">
-                                <li class="mr-3"><a class="text-white" href="index-1.html">Home</a></li>
+                                <li class="mr-3"><a class="text-white" href="home.html">Home</a></li>
                                 <li class="mr-3"><i class="fas fa-angle-double-right"></i></li>
-                                <li class="mr-3"><a class="text-white" href="index-1.html">About Us</a></li>
+                                <li class="mr-3"><a class="text-white" href="gallery-images.html">Video Gallery</a></li>
                             </ul>
                         </div> <!-- End .title -->
                     </div> <!-- End .container -->
@@ -114,156 +116,175 @@
 
         <div class="container mb-2 mb-md-5 p-md-0">
             <div class="row mb-2 mb-md-5">
-                <div class="col-md-6">
-                    <h1 class="text-size-6 text-uppercase ru-text-blue-1 mt-0 mb-2">About Us</h1>
-                    <p class="text-justify ru-text-black-1" style="line-height: 35px;">Welcome to Rupayan Group. Established in 1989, Rupayan Group has been dedicated to doing business differently and innovatively. Our diverse businesses span from real estate development, hotels, garments, shippping and much more. Our maiden company, Rupayan Art View, is a pioneer in the field of outdoor advertising and our flagship company Rupayan Housing Estate is a market leader in real estate development and construction.</p>
-                    <p class="text-justify ru-text-black-1" style="line-height: 35px;">At Rupayan Group, we believe in innovation, reliable products and services; talented people and a responsible approach to business. Our values and commitment to excellence makes us one of the largest and fastest growing companies in Bangladesh.</p>
-                </div>
-                <div class="col-md-6 d-none d-md-block">
-                    <div class="gallery">
+                <div class="gallery_wrapper">
+                    <div class="container menu_wrapper">
+                        <ul class="gallery_menu">
+                            <li class="filter active tran3s" data-filter="all">Show All</li>
+                            <li class="filter tran3s" data-filter=".house">House</li>
+                            <li class="filter tran3s" data-filter=".villa">Villa</li>
+                            <li class="filter tran3s" data-filter=".apart">Apartment</li>
+                            <li class="filter tran3s" data-filter=".condo">Condo</li>
+                            <li class="filter tran3s" data-filter=".rent">Rent</li>
+                            <li class="filter tran3s" data-filter=".sale">Sale</li>
+                        </ul>
+                    </div> <!-- End .menu_wrapper -->
+
+                    <div class="gallery_item_container gallery_style_six container" id="mixitup_list">
+
                         <div class="row">
-                            <div class="col-md-6 mb-2 pr-0">
-                                <div class="img-holder  animated zoomIn w-100">
-                                    <img src="assets/img/slider-a.jpg" class="w-100" alt="">
-                                </div>
+                            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 mix villa condo sale rent apart">
+                                <div class="single_item">
+                                    <img src="assets/img/gallery-grid/16.jpg" alt="images" class="img-responsive">
+                                    <div class="overlay overlay-visible ru-bg-black-1-op-4 tran3s">
+                                        <div class="link">
+                                            <a href="https://www.youtube.com/embed/KQ7FfPQV9dE" class="fancy_video fancybox.iframe"><i class="fal fa-play"></i></a>
+                                        </div>
+                                    </div> <!-- End .overlay -->
+                                </div> <!-- End .single_item -->
                             </div>
-                            <div class="col-md-6 mb-2 pr-0">
-                                <div class="img-holder  animated zoomIn">
-                                    <img src="assets/img/slider-b.jpg" class="w-100" alt="">
-                                </div>
-                            </div>
-                            <div class="col-md-6 mb-2 pr-0">
-                                <div class="img-holder   animated zoomIn w-100">
-                                    <img src="assets/img/slider-c.jpg"  class="w-100" alt="">
-                                </div>
-                            </div>
-                            <div class="col-md-6 mb-2 pr-0">
-                                <div class="img-holder animated zoomIn w-100">
-                                    <img src="assets/img/slider-d.jpg" class="w-100" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
 
-                </div>
+                            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 mix villa house condo rent">
+                                <div class="single_item">
+                                    <img src="assets/img/gallery-grid/17.jpg" alt="images" class="img-responsive">
+                                    <div class="overlay overlay-visible ru-bg-black-1-op-4 tran3s">
+                                        <div class="link">
+                                            <a href="https://www.youtube.com/embed/KQ7FfPQV9dE" class="fancy_video fancybox.iframe"><i class="fal fa-play"></i></a>
+                                        </div>
+                                    </div> <!-- End .overlay -->
+                                </div> <!-- End .single_item -->
+                            </div>
+
+                            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 mix house condo apart rent">
+                                <div class="single_item">
+                                    <img src="assets/img/gallery-grid/18.jpg" alt="images" class="img-responsive">
+                                    <div class="overlay overlay-visible ru-bg-black-1-op-4 tran3s">
+                                        <div class="link">
+                                            <a href="https://www.youtube.com/embed/KQ7FfPQV9dE" class="fancy_video fancybox.iframe"><i class="fal fa-play"></i></a>
+                                        </div>
+                                    </div> <!-- End .overlay -->
+                                </div> <!-- End .single_item -->
+                            </div>
+
+                            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 mix house villa apart rent sale">
+                                <div class="single_item">
+                                    <img src="assets/img/gallery-grid/19.jpg" alt="images" class="img-responsive">
+                                    <div class="overlay overlay-visible ru-bg-black-1-op-4 tran3s">
+                                        <div class="link">
+                                            <a href="https://www.youtube.com/embed/KQ7FfPQV9dE" class="fancy_video fancybox.iframe"><i class="fal fa-play"></i></a>
+                                        </div>
+                                    </div> <!-- End .overlay -->
+                                </div> <!-- End .single_item -->
+                            </div>
+
+                            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 mix  house condo villa sale">
+                                <div class="single_item">
+                                    <img src="assets/img/gallery-grid/20.jpg" alt="images" class="img-responsive">
+                                    <div class="overlay overlay-visible ru-bg-black-1-op-4 tran3s">
+                                        <div class="link">
+                                            <a href="https://www.youtube.com/embed/KQ7FfPQV9dE" class="fancy_video fancybox.iframe"><i class="fal fa-play"></i></a>
+                                        </div>
+                                    </div> <!-- End .overlay -->
+                                </div> <!-- End .single_item -->
+                            </div>
+
+                            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 mix house apart sale">
+                                <div class="single_item">
+                                    <img src="assets/img/gallery-grid/21.jpg" alt="images" class="img-responsive">
+                                    <div class="overlay overlay-visible ru-bg-black-1-op-4 tran3s">
+                                        <div class="link">
+                                            <a href="https://www.youtube.com/embed/KQ7FfPQV9dE" class="fancy_video fancybox.iframe"><i class="fal fa-play"></i></a>
+                                        </div>
+                                    </div> <!-- End .overlay -->
+                                </div> <!-- End .single_item -->
+                            </div>
+
+                            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 mix villa condo rent">
+                                <div class="single_item">
+                                    <img src="assets/img/gallery-grid/22.jpg" alt="images" class="img-responsive">
+                                    <div class="overlay overlay-visible ru-bg-black-1-op-4 tran3s">
+                                        <div class="link">
+                                            <a href="https://www.youtube.com/embed/KQ7FfPQV9dE" class="fancy_video fancybox.iframe"><i class="fal fa-play"></i></a>
+                                        </div>
+                                    </div> <!-- End .overlay -->
+                                </div> <!-- End .single_item -->
+                            </div>
+
+                            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 mix house villa apart sale">
+                                <div class="single_item">
+                                    <img src="assets/img/gallery-grid/23.jpg" alt="images" class="img-responsive">
+                                    <div class="overlay overlay-visible ru-bg-black-1-op-4 tran3s">
+                                        <div class="link">
+                                            <a href="https://www.youtube.com/embed/KQ7FfPQV9dE" class="fancy_video fancybox.iframe"><i class="fal fa-play"></i></a>
+                                        </div>
+                                    </div> <!-- End .overlay -->
+                                </div> <!-- End .single_item -->
+                            </div>
+
+                            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 mix condo sale apart rent">
+                                <div class="single_item">
+                                    <img src="assets/img/gallery-grid/24.jpg" alt="images" class="img-responsive">
+                                    <div class="overlay overlay-visible ru-bg-black-1-op-4 tran3s">
+                                        <div class="link">
+                                            <a href="https://www.youtube.com/embed/KQ7FfPQV9dE" class="fancy_video fancybox.iframe"><i class="fal fa-play"></i></a>
+                                        </div>
+                                    </div> <!-- End .overlay -->
+                                </div> <!-- End .single_item -->
+                            </div>
+
+                            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 mix villa house condo rent">
+                                <div class="single_item">
+                                    <img src="assets/img/gallery-grid/25.jpg" alt="images" class="img-responsive">
+                                    <div class="overlay overlay-visible ru-bg-black-1-op-4 tran3s">
+                                        <div class="link">
+                                            <a href="https://www.youtube.com/embed/KQ7FfPQV9dE" class="fancy_video fancybox.iframe"><i class="fal fa-play"></i></a>
+                                        </div>
+                                    </div> <!-- End .overlay -->
+                                </div> <!-- End .single_item -->
+                            </div>
+
+                            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 mix house condo apart sale rent">
+                                <div class="single_item">
+                                    <img src="assets/img/gallery-grid/26.jpg" alt="images" class="img-responsive">
+                                    <div class="overlay overlay-visible ru-bg-black-1-op-4 tran3s">
+                                        <div class="link">
+                                            <a href="https://www.youtube.com/embed/KQ7FfPQV9dE" class="fancy_video fancybox.iframe"><i class="fal fa-play"></i></a>
+                                        </div>
+                                    </div> <!-- End .overlay -->
+                                </div> <!-- End .single_item -->
+                            </div>
+
+                            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 mix villa apart sale">
+                                <div class="single_item">
+                                    <img src="assets/img/gallery-grid/27.jpg" alt="images" class="img-responsive">
+                                    <div class="overlay overlay-visible ru-bg-black-1-op-4 tran3s">
+                                        <div class="link">
+                                            <a href="https://www.youtube.com/embed/KQ7FfPQV9dE" class="fancy_video fancybox.iframe"><i class="fal fa-play"></i></a>
+                                        </div>
+                                    </div> <!-- End .overlay -->
+                                </div> <!-- End .single_item -->
+                            </div>
+
+
+                        </div>
+                    </div> <!-- End #mixitup_list -->
+
+                    <div class="container page_indicator">
+                        <a href="#" class="prev tran3s">Prev Page</a>
+                        <ul>
+                            <li><a href="#"><i class="fa fa-angle-left"></i></a></li>
+                            <li class="active"><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#"><i class="fa fa-angle-right"></i></a></li>
+                        </ul>
+                        <a href="#" class="next tran3s">Next Page</a>
+                    </div>
+                </div> <!-- End .gallery_wrapper -->
+
             </div>
         </div>
-
-        <div class="container p-md-0 mb-2 mb-md-5">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="img-holder text-center text-md-left">
-                        <img src="assets/img/chairman-ru.png" class="w-75" alt="">
-                    </div>
-                </div>
-
-                <div class="col-md-6">
-                    <div class="">
-                        <h1 class="text-size-6 text-uppercase text-center text-md-left ru-text-blue-1 mt-0 mb-3">CHAIRMAN'S MESSAGE</h1>
-                        <p class="text-justify ru-text-black-1" style="line-height: 35px;">
-                            Welcome to Rupayan Group. Established in 1989, Rupayan Group has been dedicated to doing business differently and innovatively. Our diverse businesses span from real estate development, hotels, garments, shippping and much more. Our maiden company, Rupayan Art View, is a pioneer in the field of outdoor advertising and our flagship company Rupayan Housing Estate is a market leader in real estate development and construction.
-                        </p>
-                        <p class="text-justify ru-text-black-1" style="line-height: 35px;">
-                            At Rupayan Group, we believe in innovation, reliable products and services; talented people and a responsible approach to business. Our values and commitment to excellence makes us one of the largest and fastest growing companies in Bangladesh.
-                        </p>
-                        <p class="text-justify ru-text-black-1" style="line-height: 35px;">
-                            At Rupayan Group, we believe in innovation, reliable products and services; talented people and a responsible approach to business. Our values and commitment to excellence makes us one of the largest and fastest growing companies in Bangladesh.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-
-
-
-        <!--<div class="about_history container mb-5">
-            <div class="row">
-                <div class="col-lg-3 col-md-3 col-sm-6 history_item">
-                    <div class="content">
-                        <div class="img_holder">
-                            <img src="assets/img/about-us/1.jpg" alt="image" class="img-responsive w-100">
-                        </div>
-                        <h6 class="text-center text-uppercase mt-2">first established - 1984 </h6>
-                    </div>
-                    &lt;!&ndash; End .content &ndash;&gt;
-                </div>
-                &lt;!&ndash; End .history_item &ndash;&gt;
-
-                <div class="col-lg-3 col-md-3 col-sm-6 history_item">
-                    <div class="content fix_small">
-                        <div class="img_holder">
-                            <img src="assets/img/about-us/2.jpg" alt="image" class="img-responsive tran3s">
-                        </div>
-                        <h6 class="text-center text-uppercase mt-2">Best Concepts In - 1988</h6>
-                    </div>
-                    &lt;!&ndash; End .content &ndash;&gt;
-                </div>
-                &lt;!&ndash; End .history_item &ndash;&gt;
-
-                <div class="col-lg-3 col-md-3 col-sm-6 history_item">
-                    <div class="content">
-                        <div class="img_holder">
-                            <img src="assets/img/about-us/3.jpg" alt="image" class="img-responsive tran3s">
-                        </div>
-                        <h6 class="text-center text-uppercase mt-2">Extended to 48 Offices - 1996</h6>
-                    </div>
-                    &lt;!&ndash; End .content &ndash;&gt;
-                </div>
-                &lt;!&ndash; End .history_item &ndash;&gt;
-
-                <div class="col-lg-3 col-md-3 col-sm-6 history_item">
-                    <div class="content fix_small">
-                        <div class="img_holder">
-                            <img src="assets/img/about-us/4.jpg" alt="image" class="img-responsive tran3s">
-                        </div>
-                        <h6 class="text-center text-uppercase mt-2">Top 5 In The World - 2001</h6>
-                    </div>
-                    &lt;!&ndash; End .content &ndash;&gt;
-                </div>
-                &lt;!&ndash; End .history_item &ndash;&gt;
-            </div>
-            &lt;!&ndash; End .row &ndash;&gt;
-        </div>-->
-
-        <div class="container p-md-0 mt-2 mb-2 mt-md-5 mb-md-5">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="">
-                        <h1 class="text-size-6 text-uppercase ru-text-blue-1 mt-0 mb-3">Our Mission</h1>
-                        <p class="text-justify ru-text-black-1" style="line-height: 35px;">
-                            AT RUPAYAN GROUP WE HAVE ONE OBJECTIVE – TO DEVOTE OUR TALENT, TECHNOLOGY AND TIME TO CREATING SUPERIOR PRODUCTS AND SERVICES THAT MAKE EVERYDAY LIVES BETTER AND CONTRIBUTES TO A BETTER SOCIETY.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="">
-                        <h1 class="text-size-6 text-uppercase ru-text-blue-1 mt-0 mb-3">Our Vision</h1>
-                        <p class="text-justify ru-text-black-1" style="line-height: 35px;">
-                            RUPAYAN GROUPS’S VISION IS TO PROVIDE EXCELLENT PRODUCT AND SERVICES OF SUPERIOR QUALITY AND VALUE THAT WILL ENHANCE THE LIVES OF CONSUMERS TODAY AND FOR GENERATIONS TO COME.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="">
-                        <h1 class="text-size-6 text-uppercase ru-text-blue-1 mt-0 mb-3">Our Values</h1>
-                        <p class="text-justify ru-text-black-1" style="line-height: 35px;">
-                            RUPAYAN GROUP BELIEVES THAT GOOD ETHICS IS THE FOUNDATION FOR GOOD BUSINESS. WE BELIEVE IN SHOWING FAIRNESS AND RESPECT TO OUR CLIENTS, PARTNERS, SOCIETY AND ENVIRONMENT.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-
 
     </section><!-- Our Header-Bottom End-->
-
-
-
-
 
 
 
@@ -393,6 +414,13 @@
     <script src="assets/js/jquery.numscroll.js"></script>
     <!-- Parallax JS -->
     <script src="assets/js/parallax.min.js"></script>
+    <!-- fancybox JS -->
+    <script src="assets/js/jquery.fancybox.pack.js"></script>
+
+    <!-- Mixtiup - like masonary JS -->
+    <script src="assets/js/jquery.mixitup.min.js"></script>
+
+
 
 
     <!-- Custom JS -->

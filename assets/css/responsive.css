@@ -9,6 +9,62 @@
     .ru-statistic-title {
         margin-bottom: 0px;
     }
+    .slick-slide {
+        margin-right: 0px;
+    }
+
+    .top-page-banner h2 {
+        font-size: 30px;
+        margin-bottom: 5px !important;
+    }
+
+    .top-page-banner ul {
+        padding-left: 10px;
+    }
+    .top-page-banner ul li a {
+        font-size: 14px
+    }
+
+    .single-concern-d {
+        margin-bottom: 20px;
+    }
+
+    .faq_item .single_question .icon_holder, .faq_item .single_question .text {
+        display: block;
+        width:100%;
+        padding-left: 0;
+        text-align: center;
+    }
+    .inner_section_title span.left_side {
+        width: 96%;
+        margin-bottom: 25px;
+        display: block;
+    }
+    .inner_section_title>ul {
+        width: 100%;
+        margin-left: 0;
+        border: 1px solid #f1f1f1;
+        padding: 0;
+    }
+    .inner_section_title>ul li {
+        width: 100%;
+        text-align: center;
+
+    }
+    .inner_section_title>ul:after, .inner_section_title>ul:before {
+        display: none;
+    }
+    .inner_section_title>ul li a {
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid #f1f1f1;
+        padding: 0;
+        line-height: 38px;
+        display: block;
+    }
+    .inner_section_title>ul li:last-child a {
+        border-bottom: 0;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -21,6 +77,46 @@
     }
     .ru-statistic-title {
         margin-bottom: 0px;
+    }
+    .slick-slide {
+        margin-right: 0px;
+    }
+
+    .faq_item .single_question .icon_holder, .faq_item .single_question .text {
+        display: block;
+        width:100%;
+        padding-left: 0;
+        text-align: center;
+    }
+    .inner_section_title span.left_side {
+        width: 96%;
+        margin-bottom: 25px;
+        display: block;
+    }
+    .inner_section_title>ul {
+        width: 100%;
+        margin-left: 0;
+        border: 1px solid #f1f1f1;
+        padding: 0;
+    }
+    .inner_section_title>ul li {
+        width: 100%;
+        text-align: center;
+
+    }
+    .inner_section_title>ul:after, .inner_section_title>ul:before {
+        display: none;
+    }
+    .inner_section_title>ul li a {
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid #f1f1f1;
+        padding: 0;
+        line-height: 38px;
+        display: block;
+    }
+    .inner_section_title>ul li:last-child a {
+        border-bottom: 0;
     }
 }
 

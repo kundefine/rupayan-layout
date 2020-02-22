@@ -1102,7 +1102,7 @@
 	}
 	.main_menu nav .nav .sub-sub-menu>li:first-child>a,
 	.main_menu nav .nav .sub-sub-menu>li:last-child>a {
-		border-radius: none;
+		border-radius: 0;
 	}
 	.main_menu nav .nav .sub-sub-menu>li>a {
 		padding-left: 30px;
@@ -1562,7 +1562,7 @@
 		width:100%;
 	}
 	.register_page .register_form form .space_fix {
-		margin:right:0;
+		margin-right:0;
 	}
 	.fixed_style_three header .left_side {
 	   display: none;

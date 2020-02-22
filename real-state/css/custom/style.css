@@ -865,9 +865,9 @@ button {
 	box-shadow: none;
 	width:59px;
 	height:59px;
-	-webkit-transition: all 0.3s ease-in-out
-    -o-transition: all 0.3s ease-in-out
-    transition: all 0.3s ease-in-out
+	-webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 .metis .tp-bullet-image:before {
 	content: '';
@@ -2455,7 +2455,6 @@ footer .bottom_footer .footer_nav ul li a:hover {
 .recent_properties_two .nav-tabs li.active a,
 .recent_properties_two .nav-tabs li.focus a {
 	background: #4dc2e6;
-	background-color: none;
 	color:#fff;
 	border:none;
 	border-right:1px solid #f1f1f1;

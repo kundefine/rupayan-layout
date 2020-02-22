@@ -48,8 +48,54 @@ $(document).ready(function() {
        }
     });
 
+    mixitupGallery ();
+    FancypopUp();
+    FancypopUpVideo();
 
 });
+
+// Mixitup gallery
+function mixitupGallery () {
+    if ($("#mixitup_list").length) {
+        $("#mixitup_list").mixItUp()
+    };
+}
+// Fancybox
+
+function FancypopUp () {
+    if ($(".fancybox").length) {
+        $(".fancybox").fancybox({
+            openEffect	: 'elastic',
+            closeEffect	: 'elastic',
+            helpers : {
+                overlay : {
+                    css : {
+                        'background' : 'rgba(0, 0, 0, 0.6)'
+                    }
+                }
+            }
+        });
+    };
+}
+
+
+// Fancybox Video
+
+function FancypopUpVideo () {
+    if ($(".fancy_video").length) {
+        $(".fancy_video").fancybox({
+            maxWidth	: 800,
+            maxHeight	: 600,
+            fitToView	: true,
+            width		: '100%',
+            height		: '100%',
+            autoSize	: true,
+            closeClick	: false,
+            openEffect	: 'none',
+            closeEffect	: 'none'
+        });
+    };
+}
 
 
 function HotLineAnimation() {
