@@ -46,11 +46,39 @@ $(document).ready(function() {
        } else {
            $($("a[href='#top']")).hide();
        }
+
+        if(this.scrollY > 200) {
+            $(".new-hot-line-wrapper").removeClass("deactive-new-hot-line");
+        } else {
+            $(".new-hot-line-wrapper").addClass("deactive-new-hot-line");
+        }
+
+
+        if(this.scrollY > 100) {
+            $('.header-new-top ').addClass('fixed-top');
+        } else {
+            $('.header-new-top ').removeClass('fixed-top');
+        }
+    });
+
+    $('.new-toggle-mobile-menu').on('click', function(){
+       $(this).toggleClass('active');
     });
 
     mixitupGallery ();
     FancypopUp();
     FancypopUpVideo();
+    $('.ru-dropdown-menu > a').removeAttr("href");
+
+    $('.ru-dropdown-menu').on('click', function(e){
+
+        $(this).toggleClass('ru-dropdown-menu-isactive');
+    });
+
+
+    $(".hide-new-hot-line").on('click', function() {
+        $(".new-hot-line-wrapper").toggleClass("deactive-new-hot-line");
+    });
 
 });
 

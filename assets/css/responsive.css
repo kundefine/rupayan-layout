@@ -65,6 +65,123 @@
     .inner_section_title>ul li:last-child a {
         border-bottom: 0;
     }
+    /* New Top Header */
+    .new-search {
+        min-width: initial;
+        width: 100%;
+        border: 1px solid #ddd;
+        margin: 5px 15px;
+        background: #fff;
+        border-radius: 3px;
+        min-height: 35px;
+    }
+    .new-search input[type="checkbox"]:checked + .search-input, .search-input {
+        border: 0 !important;
+        transform: translateX(0) !important;
+        padding: 0px 10px !important;
+        font-size: 10px;
+        height: 100%;
+    }
+    .new-search label {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        margin: initial;
+        transform: translateY(-50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        background: #ddd;
+    }
+
+    .ru-mainmenu ul {
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px 20px;
+    }
+
+    .header-new-bottom {
+        justify-content: flex-start;
+        max-width: 100%;
+        flex-direction: column;
+    }
+
+
+    .ru-mainmenu ul li a {
+        text-align: left;
+    }
+
+    .ru-mainmenu ul li {
+        margin-right: 0;
+        min-width: initial;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .ru-mainmenu {
+        width: 100%;
+    }
+
+    .ru-mainmenu ul li.ru-dropdown-menu ul {
+        position: initial;
+        padding-top: 0;
+        max-height: 0;
+        padding: 0;
+        visibility: hidden !important;
+    }
+
+    .ru-mainmenu ul li.ru-dropdown-menu:after {
+        top: 24px;
+    }
+
+    .ru-mainmenu ul li.ru-dropdown-menu.ru-dropdown-menu-isactive ul {
+        max-height: 1000px;
+        padding: 0px 20px 20px 20px;
+        visibility: visible !important;
+
+    }
+
+
+
+    .single-partner {
+        margin-right: initial;
+        margin-left: initial;
+        max-width: 305px;
+        margin: 0 auto;
+    }
+
+    a.new-search {
+        display: none;
+    }
+
+    .right-search-content {
+        border: 0;
+        min-width: initial;
+        margin: 0;
+        padding: 0;
+    }
+
+    .new-header-right-content {
+        /*justify-content: unsafe;*/
+    }
+
+    .header-new-top {
+        justify-content: center;
+        margin: 0px 12px;
+        flex-direction: column;
+    }
+
+
+    a.new-logo {
+        margin: 0;
+    }
+
+    .right-search-content span {
+        margin-right: 12px;
+    }
+
+
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -118,6 +235,91 @@
     .inner_section_title>ul li:last-child a {
         border-bottom: 0;
     }
+
+    /* New Top Header */
+    a.new-logo {
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .new-search {
+        min-width: initial;
+        width: 100%;
+        border: 1px solid #ddd;
+        margin: 5px 15px;
+        background: #fff;
+        border-radius: 3px;
+        min-height: 35px;
+    }
+    .new-search input[type="checkbox"]:checked + .search-input, .search-input {
+        border: 0 !important;
+        transform: translateX(0) !important;
+        padding: 0px 10px !important;
+        font-size: 10px;
+        height: 100%;
+    }
+    .new-search label {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        margin: initial;
+        transform: translateY(-50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        background: #ddd;
+    }
+
+    .ru-mainmenu ul {
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px 20px;
+    }
+
+    .header-new-bottom {
+        justify-content: flex-start;
+        max-width: 100%;
+        flex-direction: column;
+    }
+
+
+    .ru-mainmenu ul li a {
+        text-align: left;
+    }
+
+    .ru-mainmenu ul li {
+        margin-right: 0;
+        min-width: initial;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .ru-mainmenu {
+        width: 100%;
+    }
+    .ru-mainmenu ul li.ru-dropdown-menu ul {
+        position: initial;
+        padding-top: 0;
+    }
+
+    .ru-mainmenu ul li.ru-dropdown-menu:after {
+        top: 24px;
+    }
+    .ru-mainmenu ul li.ru-dropdown-menu:hover ul {
+        max-height: 1000px;
+        padding: 0px 20px 20px 20px;
+    }
+
+    .single-partner {
+        margin-right: initial;
+        margin-left: initial;
+        max-width: 305px;
+        margin: 0 auto;
+    }
+
+
+
 }
 
 /* Medium devices (tablets, 768px and up) */

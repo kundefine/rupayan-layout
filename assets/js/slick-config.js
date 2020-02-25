@@ -1,8 +1,8 @@
 // slick slider
 $(document).ready(function(){
     $('.slick-ready-project').slick({
-        slidesToShow: 3,
-        slidesToScroll: 3,
+        slidesToShow: 4,
+        slidesToScroll: 4,
         // autoplay: true,
         autoplaySpeed: 2000,
         dots: true,
@@ -39,8 +39,8 @@ $(document).ready(function(){
 
 
     $('.slick-ready-project2').slick({
-        slidesToShow: 3,
-        slidesToScroll: 3,
+        slidesToShow: 4,
+        slidesToScroll: 1,
         // autoplay: true,
         autoplaySpeed: 2000,
         dots: true,
