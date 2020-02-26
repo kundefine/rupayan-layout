@@ -144,7 +144,7 @@ a.new-logo img {
 }
 .new-search {
     position: relative;
-    min-width: 500px;
+    min-width: 400px;
     border: 0;
     display: flex;
     overflow: hidden;
@@ -160,7 +160,7 @@ a.new-logo img {
     padding-left: 20px;
     font-family: 'Slabo 27px';
     font-style: italic;
-    transform: translateX(108%);
+    transform: translateX(110%);
     transition: transform 0.3s ease-in-out;
     z-index: 1;
 }
@@ -251,7 +251,7 @@ input.search-input:focus {
     flex-direction: column;
     position: absolute;
     top: calc(100% + 40px);
-    z-index: 1;
+    z-index: 999;
     visibility: hidden;
     opacity: 0;
     transition: all 0.3s ease-in;
@@ -800,7 +800,7 @@ li.nav-item {
     position: relative;
 }
 .specification_tab .panel-heading h6 a::before {
-    content: "";
+    content: "ï„‡";
     font-family: "Font Awesome 5 Pro";
     font-size: 18px;
     line-height: 44px;
@@ -1780,7 +1780,7 @@ li.nav-item {
 
 .custom-model .modal-content {
     border-radius: 0;
-    background-image: linear-gradient(178deg,rgba(192,170,113,.16),rgba(243,224,171,.0384));
+    background: #fff;
 }
 
 .enq-form input,  .enq-form textarea {
@@ -1808,8 +1808,8 @@ li.nav-item {
     from{
         top: -100%
     } to {
-        top: 0;
-    }
+          top: 0;
+      }
 }
 
 
@@ -2292,7 +2292,7 @@ li.nav-item {
     color:#4dc2e6;
 }
 .blog_sidebar .twitter_widget ul li:before {
-    content: '';
+    content: 'ï‚™';
     font-family: 'font-awesome';
     position: absolute;
     top:0;
@@ -2539,15 +2539,61 @@ li.nav-item {
 }
 
 .login-form input, .login-form textarea {
+
     border-radius: 0;
-    border: 1px solid lightblue;
     font-family: "Slabo 27px";
+    border: 0;
+    border-bottom: 2px solid #666;
+    background: transparent;
+    padding: 0;
+
+}
+.login-form input:focus, .login-form textarea:focus {
+    border: 0;
+    border-bottom: 2px solid #222;
+    box-shadow: none;
+    background: transparent;
 }
 
+.login-form a, .login-form button {
+    color: #666 !important;
+    text-decoration: underline;
+    font-family: 'Cairo';
+}
+
+.login-form button {
+    color: transparent !important;
+    text-decoration: none;
+    min-width: 130px;
+    background: transparent !important;
+    position: relative;
+    overflow: hidden;
+}
+
+/*.login-form button:hover {
+    background: #222 !important;
+}*/
+
+
+
 .login-form {
-    background-image: linear-gradient(45deg, #fff, #f1f1f1, transparent);
+    border: 1px solid #ddd;
     padding: 20px;
-    border-bottom: 2px solid #e6e6e6;
+    border-top: 5px solid #1A73E8;
+    min-height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0px 0px 2px 2px #f1f1f1;
+    border-radius: 5px;
+}
+
+.login-form .form-group {
+    margin-bottom: 40px;
+}
+
+.login-form .form-group:last-of-type {
+    margin-bottom: 10px;
 }
 
 .login-form label {font-family: "Slabo 27";}
@@ -2689,11 +2735,10 @@ span.career-deadline {
 
 .radio-group label:hover {
     transform: scale(1.05);
-    box-shadow: 0px 0px 5px #ddd;
 }
 
 .radio-group label:hover i.good, .radio-group label:hover span.good {
-    color: #33f53e;
+    color: green;
 }
 
 
@@ -2705,9 +2750,107 @@ span.career-deadline {
 }
 
 .custom-radio:checked ~ i.good, .custom-radio:checked ~ span.good {
-    color: #33f53e;
+    color: green;
 }
 
 .custom-radio:checked ~ i.bad, .custom-radio:checked ~ span.bad {
     color: red;
+}
+
+.header-new-top-container {
+    min-height: 113px;
+}
+
+.animi {
+    position: relative;
+}
+.animi input:focus + .line-animation-middle, .animi textarea:focus + .line-animation-middle {
+    transform: rotateY(0deg);
+}
+.line-animation-middle {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 3px;
+    background: #1A73E8;
+    transform: rotateY(90deg);
+    transition: all 0.5s ease-out;
+}
+
+
+.login-form button:before {
+    color: #fff !important;
+    position: absolute;
+    content: 'Login';
+    top: 100%;
+    left: -100%;
+    width: 100%;
+    background: #222;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+}
+.login-form button:hover:before {
+
+    top: 0%;
+    left: 0%;
+}
+
+.login-form button:after {
+    color: #fff;
+    position: absolute;
+    content: 'Login';
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    background: #1A73E8;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+}
+.login-form button:hover:after {
+    top: -100%;
+    left: 100%;
+}
+.login-form button.feedback-button:before,
+.login-form button.feedback-button:after {
+    content: 'feedback';
+}
+.login-form button.recover-button:before,
+.login-form button.recover-button:after {
+    content: 'Send Recovery Mail';
+}
+
+.login-form button.enquire-button:before,
+.login-form button.enquire-button:after {
+    content: 'Your Enquire';
+}
+
+.lock-icon {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #1A73E8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.single-feedback {
+    color: #1A73E8;
+}
+
+.single-feedback i {
+    margin-bottom: 10px;
+}
+
+.single-feedback span {
+    font-family: 'Cairo';
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 900;
 }

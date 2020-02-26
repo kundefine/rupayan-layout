@@ -39,7 +39,7 @@
     <!-- Header Plus Slider Start-->
     <section class="common-section header-plus-slider">
 
-        <div class="container-fluid ru-bg-black-5-op-5 p-0">
+        <div class="container-fluid ru-bg-black-5-op-5 p-0 header-new-top-container">
             <div class="header-new-top d-flex align-items-center pl-md-5 pr-md-5 pt-1 pb-1">
                 <a class="navbar-brand new-logo" href="home.html">
                     <span class="toggle-mobile-menu mb-3">
@@ -47,7 +47,7 @@
                     </span>
                     <img src="assets/img/logo.png" alt="" class="logo">
                 </a>
-                <div class="new-header-right-content ml-md-auto d-flex">
+                <div class="new-header-right-content ml-lg-auto d-flex">
                     <a class="new-search" href="#">
                         <input type="checkbox" name="" id="search-checkbox">
                         <input type="text" class="search-input" placeholder="Search for properties, communities and more">
@@ -65,20 +65,17 @@
 
                     </div>
                 </div>
-
             </div>
-
-            <div class="mobile-search d-md-none">
+            <div class="mobile-search d-lg-none">
                 <div class="mobile-search-wrapper">
                     <input type="text" placeholder="Search for properties, communities and more"> <i class="fal fa-search"></i>
                 </div>
             </div>
-
             <div class="header-new-bottom">
-                <div class="new-toggle-mobile-menu d-md-none">
+                <div class="new-toggle-mobile-menu d-lg-none">
                     <i class="fal fa-bars"></i>
                 </div>
-                <div class="ru-mainmenu d-none d-md-block ">
+                <div class="ru-mainmenu d-none d-lg-block ">
                     <ul class="">
                         <li><a href="home.html">Home</a></li>
                         <li><a href="projects.html">Our Project</a></li>
@@ -87,19 +84,35 @@
                             <a href="">Why Rupayan</a>
                             <ul class="ru-dropdown">
                                 <li><a href="about-us.html">About Rupayan</a></li>
-                                <li><a href="about-us.html">Chairman message</a></li>
-                                <li><a href="about-us.html">Mission</a></li>
+                                <li><a href="ch-message.html">Chairman message</a></li>
+                                <li><a href="mission.html">Mission</a></li>
                                 <li><a href="about-us.html">Vision</a></li>
-                                <li><a href="about-us.html">CSR</a></li>
+                                <li><a href="csr.html">CSR</a></li>
                             </ul>
                         </li>
-                        <li><a href="">Events and Offers</a></li>
+                        <li><a href="news-events.html">Events and Offers</a></li>
+                        <li class="ru-dropdown-menu">
+                            <a href="">Others</a>
+                            <ul class="ru-dropdown">
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="single-blog.html">Single Blog</a></li>
+                                <li><a href="career.html">Career</a></li>
+                                <li><a href="contact-us.html">Contact Us</a></li>
+                                <li><a href="faq.html">Faq</a></li>
+                                <li><a href="feed-back.html">Feedback</a></li>
+                                <li><a href="gallery-images.html">Image Gallery</a></li>
+                                <li><a href="gallery-videos.html">Video Gallery</a></li>
+                                <li><a href="login.html">Login</a></li>
+                                <li><a href="recovery-password.html">Recovery Password</a></li>
+                            </ul>
+                        </li>
 
                     </ul>
                 </div>
             </div>
 
         </div>
+
 
         <!-- Top Header Carousel Start -->
         <header class="top-header-carousel overflow-hidden">
@@ -464,6 +477,10 @@
     <div class="modal fade custom-model" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
+
+
+
+
                 <div class="modal-header">
                     <h3 class="text-center ru-text-black-1">Register your interest</h3>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -473,6 +490,47 @@
                     </button>
                 </div>
                 <div class="modal-body">
+
+                    <div class="row">
+                        <div class="col-md-10 offset-md-1">
+                            <div class="login-form">
+                                <div class="lock-icon text-center mb-5 mt-2">
+                                    <i class="fal fa-comment-alt-smile fa-2x" style="color: #1A73E8;"></i>
+                                </div>
+                                <div class="row form-group">
+                                    <div class="col-md-6">
+                                        <div class="form-group animi">
+                                            <input type="text" class="form-control" placeholder="First Name">
+                                            <span class="line-animation-middle"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group animi">
+                                            <input type="text" class="form-control" placeholder="Last Name">
+                                            <span class="line-animation-middle"></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="form-group animi">
+                                    <input type="text" class="form-control" placeholder="Email">
+                                    <span class="line-animation-middle"></span>
+                                </div>
+
+                                <div class="form-group animi">
+                                    <textarea class="form-control border-radius-none" cols="30" rows="5" placeholder="Your Enquire"></textarea>
+                                    <span class="line-animation-middle"></span>
+                                </div>
+                                <div class="form-group">
+                                    <button class="float-right btn btn-sm btn-primary ru-bg-black-3 border-radius-none text-uppercase border-0 enquire-button" type="submit">Send Your Feedback</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+<!--
                     <div class="enq-form">
                         <p>*All fields are required</p>
                         <div class="row">
@@ -498,17 +556,16 @@
                             </div>
                         </div>
                     </div>
+-->
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-lg border-radius-none ru-bg-black-1 text-white">Submit</button>
+                <div class="modal-footer" style="min-height: 50px">
                 </div>
+
+
             </div>
         </div>
     </div>
-
-
-
-    <a class="scroll-to-top" href="#top">
+<a class="scroll-to-top" href="#top">
         <i class="fal fa-chevron-double-up fa-2x"></i>
     </a>
 

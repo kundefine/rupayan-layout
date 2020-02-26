@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="assets/css/slick-theme.css">
     <!-- Animate Css -->
     <link rel="stylesheet" href="assets/css/animate.css">
+    <!-- Fancybox Css -->
+    <link rel="stylesheet" href="assets/css/jquery.fancybox.css">
 
 
 
@@ -35,7 +37,7 @@
 
     <!-- Header Plus Slider Start-->
     <section class="common-section header-plus-slider">
-        <div class="container-fluid ru-bg-black-5-op-5 p-0">
+        <div class="container-fluid ru-bg-black-5-op-5 p-0 header-new-top-container">
             <div class="header-new-top d-flex align-items-center pl-md-5 pr-md-5 pt-1 pb-1">
                 <a class="navbar-brand new-logo" href="home.html">
                     <span class="toggle-mobile-menu mb-3">
@@ -43,7 +45,7 @@
                     </span>
                     <img src="assets/img/logo.png" alt="" class="logo">
                 </a>
-                <div class="new-header-right-content ml-md-auto d-flex">
+                <div class="new-header-right-content ml-lg-auto d-flex">
                     <a class="new-search" href="#">
                         <input type="checkbox" name="" id="search-checkbox">
                         <input type="text" class="search-input" placeholder="Search for properties, communities and more">
@@ -61,20 +63,17 @@
 
                     </div>
                 </div>
-
             </div>
-
-            <div class="mobile-search d-md-none">
+            <div class="mobile-search d-lg-none">
                 <div class="mobile-search-wrapper">
                     <input type="text" placeholder="Search for properties, communities and more"> <i class="fal fa-search"></i>
                 </div>
             </div>
-
             <div class="header-new-bottom">
-                <div class="new-toggle-mobile-menu d-md-none">
+                <div class="new-toggle-mobile-menu d-lg-none">
                     <i class="fal fa-bars"></i>
                 </div>
-                <div class="ru-mainmenu d-none d-md-block ">
+                <div class="ru-mainmenu d-none d-lg-block ">
                     <ul class="">
                         <li><a href="home.html">Home</a></li>
                         <li><a href="projects.html">Our Project</a></li>
@@ -83,13 +82,28 @@
                             <a href="">Why Rupayan</a>
                             <ul class="ru-dropdown">
                                 <li><a href="about-us.html">About Rupayan</a></li>
-                                <li><a href="about-us.html">Chairman message</a></li>
-                                <li><a href="about-us.html">Mission</a></li>
+                                <li><a href="ch-message.html">Chairman message</a></li>
+                                <li><a href="mission.html">Mission</a></li>
                                 <li><a href="about-us.html">Vision</a></li>
-                                <li><a href="about-us.html">CSR</a></li>
+                                <li><a href="csr.html">CSR</a></li>
                             </ul>
                         </li>
-                        <li><a href="">Events and Offers</a></li>
+                        <li><a href="news-events.html">Events and Offers</a></li>
+                        <li class="ru-dropdown-menu">
+                            <a href="">Others</a>
+                            <ul class="ru-dropdown">
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="single-blog.html">Single Blog</a></li>
+                                <li><a href="career.html">Career</a></li>
+                                <li><a href="contact-us.html">Contact Us</a></li>
+                                <li><a href="faq.html">Faq</a></li>
+                                <li><a href="feed-back.html">Feedback</a></li>
+                                <li><a href="gallery-images.html">Image Gallery</a></li>
+                                <li><a href="gallery-videos.html">Video Gallery</a></li>
+                                <li><a href="login.html">Login</a></li>
+                                <li><a href="recovery-password.html">Recovery Password</a></li>
+                            </ul>
+                        </li>
 
                     </ul>
                 </div>
@@ -97,29 +111,24 @@
 
         </div>
 
+
         <!-- Top Header Carousel Start -->
         <header class="top-header-carousel overflow-hidden">
-
-
             <!-- Inner Banner ________________________________ -->
-
             <section id="inner_banner" class="d-flex justify-content-center align-items-center" style="min-height: 300px" data-parallax="scroll" data-image-src="assets/img/slider-e.jpg">
                 <div class="overlay">
                     <div class="container">
                         <div class="title top-page-banner d-flex justify-content-center align-items-center flex-column">
                             <h2 class="text-white text-center display-1 mb-3 text-uppercase font-weight-bold">About Us</h2>
                             <ul class="list-style-none d-flex text-white ml-auto mr-auto">
-                                <li class="mr-3"><a class="text-white" href="index-1.html">Home</a></li>
+                                <li class="mr-3"><a class="text-white" href="home.html">Home</a></li>
                                 <li class="mr-3"><i class="fas fa-angle-double-right"></i></li>
-                                <li class="mr-3"><a class="text-white" href="index-1.html">About Us</a></li>
+                                <li class="mr-3"><a class="text-white" href="about-us.html">About Us</a></li>
                             </ul>
                         </div> <!-- End .title -->
                     </div> <!-- End .container -->
                 </div> <!-- End .overlay -->
             </section> <!-- End .inner_banner -->
-
-
-
         </header> <!-- Top Header Carousel End -->
     </section><!-- Header Plus Slider End-->
 
@@ -141,22 +150,30 @@
                         <div class="row">
                             <div class="col-md-6 mb-2 pr-0">
                                 <div class="img-holder  animated zoomIn w-100">
-                                    <img src="assets/img/slider-a.jpg" class="w-100" alt="">
+                                    <a class="about-gallery" rel="group1" href="assets/img/slider-a.jpg">
+                                        <img src="assets/img/slider-a.jpg" class="w-100" alt="">
+                                    </a>
                                 </div>
                             </div>
                             <div class="col-md-6 mb-2 pr-0">
                                 <div class="img-holder  animated zoomIn">
-                                    <img src="assets/img/slider-b.jpg" class="w-100" alt="">
+                                    <a class="about-gallery" rel="group1" href="assets/img/slider-b.jpg">
+                                        <img src="assets/img/slider-b.jpg" class="w-100" alt="">
+                                    </a>
                                 </div>
                             </div>
                             <div class="col-md-6 mb-2 pr-0">
                                 <div class="img-holder   animated zoomIn w-100">
-                                    <img src="assets/img/slider-c.jpg"  class="w-100" alt="">
+                                    <a class="about-gallery" rel="group1" href="assets/img/slider-c.jpg">
+                                        <img src="assets/img/slider-c.jpg"  class="w-100" alt="">
+                                    </a>
                                 </div>
                             </div>
                             <div class="col-md-6 mb-2 pr-0">
                                 <div class="img-holder animated zoomIn w-100">
-                                    <img src="assets/img/slider-d.jpg" class="w-100" alt="">
+                                    <a class="about-gallery" rel="group1" href="assets/img/slider-d.jpg">
+                                        <img src="assets/img/slider-d.jpg" class="w-100" alt="">
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -165,35 +182,6 @@
                 </div>
             </div>
         </div>
-
-        <div class="container p-md-0 mb-2 mb-md-5">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="img-holder text-center text-md-left">
-                        <img src="assets/img/chairman-ru.png" class="w-75" alt="">
-                    </div>
-                </div>
-
-                <div class="col-md-6">
-                    <div class="">
-                        <h1 class="text-size-6 text-uppercase text-center text-md-left ru-text-blue-1 mt-0 mb-3">CHAIRMAN'S MESSAGE</h1>
-                        <p class="text-justify ru-text-black-1" style="line-height: 35px;">
-                            Welcome to Rupayan Group. Established in 1989, Rupayan Group has been dedicated to doing business differently and innovatively. Our diverse businesses span from real estate development, hotels, garments, shippping and much more. Our maiden company, Rupayan Art View, is a pioneer in the field of outdoor advertising and our flagship company Rupayan Housing Estate is a market leader in real estate development and construction.
-                        </p>
-                        <p class="text-justify ru-text-black-1" style="line-height: 35px;">
-                            At Rupayan Group, we believe in innovation, reliable products and services; talented people and a responsible approach to business. Our values and commitment to excellence makes us one of the largest and fastest growing companies in Bangladesh.
-                        </p>
-                        <p class="text-justify ru-text-black-1" style="line-height: 35px;">
-                            At Rupayan Group, we believe in innovation, reliable products and services; talented people and a responsible approach to business. Our values and commitment to excellence makes us one of the largest and fastest growing companies in Bangladesh.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-
-
 
         <!--<div class="about_history container mb-5">
             <div class="row">
@@ -244,45 +232,8 @@
             &lt;!&ndash; End .row &ndash;&gt;
         </div>-->
 
-        <div class="container p-md-0 mt-2 mb-2 mt-md-5 mb-md-5">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="">
-                        <h1 class="text-size-6 text-uppercase ru-text-blue-1 mt-0 mb-3">Our Mission</h1>
-                        <p class="text-justify ru-text-black-1" style="line-height: 35px;">
-                            AT RUPAYAN GROUP WE HAVE ONE OBJECTIVE – TO DEVOTE OUR TALENT, TECHNOLOGY AND TIME TO CREATING SUPERIOR PRODUCTS AND SERVICES THAT MAKE EVERYDAY LIVES BETTER AND CONTRIBUTES TO A BETTER SOCIETY.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="">
-                        <h1 class="text-size-6 text-uppercase ru-text-blue-1 mt-0 mb-3">Our Vision</h1>
-                        <p class="text-justify ru-text-black-1" style="line-height: 35px;">
-                            RUPAYAN GROUPS’S VISION IS TO PROVIDE EXCELLENT PRODUCT AND SERVICES OF SUPERIOR QUALITY AND VALUE THAT WILL ENHANCE THE LIVES OF CONSUMERS TODAY AND FOR GENERATIONS TO COME.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="">
-                        <h1 class="text-size-6 text-uppercase ru-text-blue-1 mt-0 mb-3">Our Values</h1>
-                        <p class="text-justify ru-text-black-1" style="line-height: 35px;">
-                            RUPAYAN GROUP BELIEVES THAT GOOD ETHICS IS THE FOUNDATION FOR GOOD BUSINESS. WE BELIEVE IN SHOWING FAIRNESS AND RESPECT TO OUR CLIENTS, PARTNERS, SOCIETY AND ENVIRONMENT.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-
 
     </section><!-- Our Header-Bottom End-->
-
-
-
-
-
-
 
 
 
@@ -428,6 +379,10 @@
     <div class="modal fade custom-model" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
+
+
+
+
                 <div class="modal-header">
                     <h3 class="text-center ru-text-black-1">Register your interest</h3>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -437,6 +392,47 @@
                     </button>
                 </div>
                 <div class="modal-body">
+
+                    <div class="row">
+                        <div class="col-md-10 offset-md-1">
+                            <div class="login-form">
+                                <div class="lock-icon text-center mb-5 mt-2">
+                                    <i class="fal fa-comment-alt-smile fa-2x" style="color: #1A73E8;"></i>
+                                </div>
+                                <div class="row form-group">
+                                    <div class="col-md-6">
+                                        <div class="form-group animi">
+                                            <input type="text" class="form-control" placeholder="First Name">
+                                            <span class="line-animation-middle"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group animi">
+                                            <input type="text" class="form-control" placeholder="Last Name">
+                                            <span class="line-animation-middle"></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="form-group animi">
+                                    <input type="text" class="form-control" placeholder="Email">
+                                    <span class="line-animation-middle"></span>
+                                </div>
+
+                                <div class="form-group animi">
+                                    <textarea class="form-control border-radius-none" cols="30" rows="5" placeholder="Your Enquire"></textarea>
+                                    <span class="line-animation-middle"></span>
+                                </div>
+                                <div class="form-group">
+                                    <button class="float-right btn btn-sm btn-primary ru-bg-black-3 border-radius-none text-uppercase border-0 enquire-button" type="submit">Send Your Feedback</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+<!--
                     <div class="enq-form">
                         <p>*All fields are required</p>
                         <div class="row">
@@ -462,17 +458,16 @@
                             </div>
                         </div>
                     </div>
+-->
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-lg border-radius-none ru-bg-black-1 text-white">Submit</button>
+                <div class="modal-footer" style="min-height: 50px">
                 </div>
+
+
             </div>
         </div>
     </div>
-
-
-
-    <a class="scroll-to-top" href="#top">
+<a class="scroll-to-top" href="#top">
         <i class="fal fa-chevron-double-up fa-2x"></i>
     </a>
 
@@ -493,10 +488,13 @@
     <script src="assets/js/jquery.numscroll.js"></script>
     <!-- Parallax JS -->
     <script src="assets/js/parallax.min.js"></script>
+    <!-- fancybox JS -->
+    <script src="assets/js/jquery.fancybox.pack.js"></script>
 
 
     <!-- Custom JS -->
     <script src="assets/js/main.js"></script>
+
 
 </body>
 </html>

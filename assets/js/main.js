@@ -35,6 +35,8 @@ $(document).ready(function() {
     })
 
 
+    $('a.about-gallery').fancybox();
+
     // scroll to top
     $("a[href='#top']").click(function() {
         $("html, body").animate({ scrollTop: 0 }, 1500);
@@ -204,6 +206,7 @@ function setHeaderValue() {
     $(".contact-us").css({marginLeft: 0});
     $(".logo").css({transform: "scale(0.9)"});
 }
+
 
 
 
